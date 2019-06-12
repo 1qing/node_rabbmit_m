@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/1qing/node_rabbmit_m/issues"
   },
-  "homepage": "https://github.com/1qing/node_rabbmit_m#readme"
+  "homepage": "https://github.com/1qing/node_rabbmit_m#readme",
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  }
 }
