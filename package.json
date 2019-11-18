@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node rabbitmq.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1qing/node_rabbmit_m.git"
   },
-  "author": "1qing",
+  "author": "liees",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/1qing/node_rabbmit_m/issues"
