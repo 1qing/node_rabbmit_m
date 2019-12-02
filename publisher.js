@@ -2,7 +2,7 @@
 
 const rabbitmq = require('./lib/getChannel');
 
-(async (q, msg) => {
+const start = async (q, msg) => {
   try {
     const ch = await rabbitmq.getCh();
     await ch.assertQueue(q);
@@ -10,4 +10,6 @@ const rabbitmq = require('./lib/getChannel');
   } catch (err) {
     console.error(err);
   }
-})('bbbbbbbbb', 'bbbbbbbbbbbbbbbbbbbbbbbbbbb');
+};
+
+module.exports = { start };
